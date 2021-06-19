@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'KoHo', sans-serif;
+    color:Darkslategrey;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color:white;
+    text-decoration: none;
+
+}
+
+.main-nav li{
+    padding: 0 5%;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-header{
+    background-color: rgba(0,0,0,.6);
+    background-image: url("179613.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+}
+
+.title-name{
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    font-family: 'Pangolin', cursive;
+    color: white;
+}
+
+.title-name-large{
+    font-size: 7em;
+}
+
+.content-section{
+    margin: 1em;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.about-img{
+    float:right;
+    height: 300px;
+    margin: 15px;
+    border-radius: 10%;
+}
+.YouTube{
+    margin: 0;
+    margin-bottom: 35px;
+    float:left;
+}
+.youtube-title{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.chara-body{
+    background-image: url("bangsal-nam-9HMGyZJfrk8-unsplash.jpg");
+}
+
+.cont{
+    background-color: white;
+    padding: 2em;
+}
